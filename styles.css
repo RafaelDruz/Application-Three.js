@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: rgb(174, 188, 192);
+}
+
+.home {
+  display: fixed;
+}
+
+.home .scene ,canvas {
+  margin-top: 1rem;
+  display: flex;
+  float: right;
+  width: 400px;
+  height: 500px;
+  cursor: -webkit-grab;
+}
+
+.home .text h1{
+  margin-left: 1rem;
+  margin-top: 8rem;
+  width: 30%;
+  position: absolute;
+  left: 10%;
+  color: rgb(112, 110, 110);
+  font-size: 1.5rem;
+}
+
